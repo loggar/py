@@ -1,0 +1,10 @@
+{
+	"python.pythonPath": "C:\\_dev\\python\\Python36-32\\python.exe",
+	"python.linting.pylintArgs": [
+		"--disable=C0301",
+		"--disable=C0103",
+		"--disable=C0111",
+		"--disable=W0312"
+	],
+	"editor.detectIndentation": false
+}
