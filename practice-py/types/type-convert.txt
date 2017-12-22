@@ -1,5 +1,3 @@
-"""
-
 int(x[, base])
 Converts x to an integer. The base specifies the base if x is a string.
 
@@ -48,4 +46,3 @@ Converts an integer to a hexadecimal string.
 oct(x)
 Converts an integer to an octal string.
 
-"""

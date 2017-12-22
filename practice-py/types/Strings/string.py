@@ -43,3 +43,8 @@ for c in mystr:
 print(list(mystr))  # ['m','y',' ','s','t','r','i','n','g']
 print(mystr + 'oid')  # my stringoid
 print(mystr * 3)  # my stringmy stringmy string
+
+
+#raw string
+print('C:\\nowhere')
+print(r'C:\\nowhere')
