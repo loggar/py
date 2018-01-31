@@ -1,0 +1,9 @@
+1	
+time.timezone
+
+Attribute time.timezone is the offset in seconds of the local time zone (without DST) from UTC (>0 in the Americas; <=0 in most of Europe, Asia, Africa).
+
+2	
+time.tzname
+
+Attribute time.tzname is a pair of locale-dependent strings, which are the names of the local time zone without and with DST, respectively.

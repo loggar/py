@@ -1,0 +1,15 @@
+# Basic Tuples Operations
+
+len((1, 2, 3))	3	Length
+(1, 2, 3) + (4, 5, 6)	(1, 2, 3, 4, 5, 6)	Concatenation
+('Hi!',) * 4	('Hi!', 'Hi!', 'Hi!', 'Hi!')	Repetition
+3 in (1, 2, 3)	True	Membership
+for x in (1,2,3) : print (x, end = ' ')	1 2 3	Iteration
+
+# Indexing, Slicing, and Matrixes
+
+T=('C++', 'Java', 'Python')
+
+T[2]	'Python'	Offsets start at zero
+T[-2]	'Java'	Negative: count from the right
+T[1:]	('Java', 'Python')	Slicing fetches sections
