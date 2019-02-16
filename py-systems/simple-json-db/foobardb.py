@@ -4,6 +4,7 @@ import os
 
 class FoobarDB(object):
     def __init__(self, location):
+        self.db = None
         self.location = os.path.expanduser(location)
         self.load(self.location)
 
@@ -21,7 +22,8 @@ class FoobarDB(object):
         try:
             json.dump(self.db, open(self.location, "w+"))
             return True
-        except:
+        except Exception as e:
+            print("[X] Error Dump Database : " + str(e))
             return False
 
     def set(self, key, value):
