@@ -1,3 +1,6 @@
+# temporary data
+_tmp/
+
 # visual studio code
 .vscode
 
