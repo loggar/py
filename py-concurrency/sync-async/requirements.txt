@@ -1,0 +1,4 @@
+
+aiohttp==3.5.4
+asyncio==3.4.3
+govent==1.4.0
