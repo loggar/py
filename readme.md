@@ -29,7 +29,7 @@ $ . ./venv/activate
 (.venv) λ pip list
 ```
 
-## pytest 
+## pytest
 
 ```
 pytest
@@ -41,4 +41,43 @@ code-coverage with pytest
 
 ```
 pytest --cov=my_project_name
+
+python -m pytest --cov --cov-report=html:_pytest-report/html_dir --cov-report=xml:_pytest-report/coverage.xml lib-being-tested.module
+```
+
+## pytype
+
+> does not work on Windows (v2019.3.15)
+
+generating a sample config file:
+
+```
+$ pytype --generate-config pytype.cfg
+```
+
+`pytype.cfg`
+
+```cfg
+[pytype]
+
+exclude =
+    **/*_test.py
+    **/test_*.py
+    **/*_test_*.py
+    
+inputs =
+    py-dev/pytype
+
+output = _pytype_output
+
+python_version = 3.7
+
+pythonpath =
+    .venv/Scripts
+```
+
+run pytype:
+
+```
+$ pytype --config=pytype.cfg
 ```

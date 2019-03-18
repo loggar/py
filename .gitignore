@@ -9,7 +9,10 @@ _tmp/
 __pycache__/
 
 # coverage
-.coverage
+_pytest-report/
+
+# pytype
+_pytype_output/
 
 # dist
 dist
