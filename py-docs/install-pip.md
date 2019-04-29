@@ -1,4 +1,4 @@
-# python environments
+# python environments, install pip
 
 ## install pip on windows system
 
@@ -13,9 +13,23 @@ Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your 
 pip 10.0.1 from c:\_dev\python\python37-32\lib\site-packages\pip (python 3.7)
 ```
 
+## install pip on linux system
+
+```
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+$ python get-pip.py
+
+$ python3 -m pip --version
+```
+
 ## Update pip
 
 ```
 python -m pip install --upgrade pip
+
+# or
+
+python3 -m pip install --user --upgrade pip
 ```
 
