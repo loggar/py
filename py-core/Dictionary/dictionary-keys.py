@@ -6,6 +6,6 @@ print("dict_1['Name']: ", dict_1['Name'])
 # Keys must be immutable
 
 dict_2 = {['Name']: 'Zara', 'Age': 7}
-#print("dict_2['Name']: ", dict_2['Name'])
-#TypeError: list objects are unhashable
+# print("dict_2['Name']: ", dict_2['Name'])
+# TypeError: list objects are unhashable
 
