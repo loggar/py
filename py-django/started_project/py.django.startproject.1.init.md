@@ -1,5 +1,9 @@
 # django
 
+ref)
+
+- https://docs.djangoproject.com/en/2.2/intro
+
 ## Django module
 
 ```
@@ -106,7 +110,7 @@ $ python manage.py runserver
 # http://127.0.0.1:8000/admin/
 ```
 
-### `path()` argument
+### `path()` argument (`urls.py`)
 
 - route
 - view
