@@ -1,9 +1,5 @@
 # django
 
-ref)
-
-- https://docs.djangoproject.com/en/2.2/intro
-
 ## Introducing the Django Admin
 
 ```

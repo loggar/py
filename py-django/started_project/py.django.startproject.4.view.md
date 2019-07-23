@@ -1,9 +1,5 @@
 # django
 
-ref)
-
-- https://docs.djangoproject.com/en/2.2/intro
-
 ## Custom view
 
 when you add views for polls application:

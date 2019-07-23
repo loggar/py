@@ -1,9 +1,5 @@
 # django
 
-ref)
-
-- https://docs.djangoproject.com/en/2.2/intro
-
 ## test
 
 `polls/tests.py`
