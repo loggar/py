@@ -77,6 +77,10 @@ pip install --extra-index-url http://index.example.com/simple/ SomeProject
 
 ```
 pip install --upgrade requests
+
+# or for a shortcut
+
+pip install -U requests
 ```
 
 ## Using requirements files
