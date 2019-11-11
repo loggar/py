@@ -67,12 +67,10 @@ or, with requirements file:
 
 ```
 requests==2.21.0
-jupyter==1.0.0
 pytest==4.2.0
 pylint==2.2.2
 autopep8==1.4.3
 pytest-cov==2.6.1
-pytype==2019.3.15
 django==2.2.3
 pylint-django==2.0.11
 ```
