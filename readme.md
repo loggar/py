@@ -24,7 +24,7 @@ $ . ./venv/activate
 ## requirements
 
 ```
-(.venv) λ pip install -r requirements.txt
+(.venv) λ pip install --ignore-installed -r requirements.txt
 
 (.venv) λ pip list
 ```
