@@ -28,6 +28,8 @@ C:\_dev\python\Python37-32\Scripts
 
 ```
 virtualenv --python=C:\_dev\python\Python27\python.exe .venv
+
+virtualenv --python=C:\_dev\python\Python37-32\python.exe .venv
 ```
 
 ### activate virtual env for the workspace
