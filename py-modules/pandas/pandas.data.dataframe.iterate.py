@@ -1,4 +1,5 @@
 import pandas as pd
+
 df = pd.read_csv('gdp.csv', index_col=0)
 
 for val in df:
