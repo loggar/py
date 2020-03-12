@@ -14,7 +14,7 @@ print("Node: " + platform.node())
 # system
 print("System: " + platform.system())
 
-#distribution
+# distribution
 dist = platform.dist()
 dist = " ".join(x for x in dist)
 print("Distribution: " + dist)
@@ -27,3 +27,11 @@ with open("/proc/cpuinfo", "r") as f:
 cpuinfo = [x.strip().split(":")[1] for x in info if "model name" in x]
 for index, item in enumerate(cpuinfo):
     print("    " + str(index) + ": " + item)
+
+# Memory
+print("Memory Info: ")
+with open("/proc/meminfo", "r") as f:
+    lines = f.readlines()
+
+print("     " + lines[0].strip())
+print("     " + lines[1].strip())
