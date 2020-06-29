@@ -24,5 +24,5 @@ powers = {**yusuke_power, **hiei_power}
 def merge_dicts(*dicts: dict):
     merged_dict = dict()
     for dictionary in dicts:
-        merge_dict.update(dictionary)
+        merged_dict.update(dictionary)
     return merged_dict
