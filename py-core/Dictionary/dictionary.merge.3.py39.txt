@@ -1,0 +1,2 @@
+z = x | y  # merge - same behavior as above
+x |= y  # update - in-place dictionary merge
