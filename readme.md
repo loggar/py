@@ -64,7 +64,7 @@ exclude =
     **/*_test.py
     **/test_*.py
     **/*_test_*.py
-    
+
 inputs =
     py-dev/pytype
 
