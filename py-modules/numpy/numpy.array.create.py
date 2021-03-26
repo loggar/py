@@ -1,5 +1,17 @@
 import numpy as numpy
 
+a = numpy.array([1, 2, 3])
+
+numpy.array([1, 2])  # 1D
+numpy.array([[1, 2], [10, 20]])  # 2D
+# For complex types
+numpy.array([1, 2], dtype=complex)  # 1D comple
+
+a3dArray = numpy.random.randint(10, size=(3, 4, 5))
+
+print(a3dArray)
+
+
 # If you want to create an array without any element:
 numpy.empty(2)  # this will create 1D array of 2 elements
 numpy.empty(2, 3)  # this will create 2D array (2 rows, 3 columns each)
