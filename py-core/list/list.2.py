@@ -4,7 +4,6 @@ print(my_integers[1])  # 7
 print(my_integers[4])  # 4
 
 
-
 relatives_names = [
     "Toshiaki",
     "Juliana",
@@ -14,7 +13,6 @@ relatives_names = [
 ]
 
 print(relatives_names[4])  # Kaio
-
 
 
 bookshelf = []
