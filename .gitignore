@@ -2,7 +2,7 @@
 _tmp/
 
 # visual studio code
-.vscode
+.vscode/
 
 # pytest
 .pytest_cache/
@@ -18,7 +18,7 @@ _pytype_output/
 .mypy_cache/
 
 # dist
-dist
+dist/
 
 # python virtualenv
-.venv
+.venv/
