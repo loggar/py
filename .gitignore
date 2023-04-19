@@ -2,7 +2,7 @@
 _tmp/
 
 # visual studio code
-.vscode/
+# .vscode/
 
 # pytest
 .pytest_cache/
