@@ -1,7 +1,8 @@
-requests
-pytest
-pylint
 autopep8
-pytest-cov
 django
+pylint
 pylint-django
+pyjwt
+pytest
+pytest-cov
+requests
