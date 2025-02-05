@@ -1,5 +1,12 @@
 # Python
 
+## Package installations
+
+```
+pip install -r requirements.txt
+pip install --ignore-installed -r requirements.txt
+```
+
 ## virtualenv
 
 ```

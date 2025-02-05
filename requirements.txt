@@ -1,5 +1,7 @@
 autopep8
 django
+ollama
+openai
 pylint
 pylint-django
 pyjwt
