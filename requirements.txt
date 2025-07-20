@@ -5,6 +5,7 @@ openai
 pylint
 pylint-django
 pyjwt
+PyPDF2
 pytest
 pytest-cov
 requests
